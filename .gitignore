@@ -1,0 +1,414 @@
+# Weather API IPMA - .gitignore
+# Arquivo de exclusões para controle de versão Git
+# Gerado para projeto FastAPI + React + TypeScript
+
+# ==================== PYTHON / FASTAPI ====================
+
+# Ambientes virtuais Python
+venv/
+env/
+ENV/
+.venv/
+.env/
+.python-version
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / empacotamento
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# celery beat schedule file
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ==================== NODE.JS / REACT ====================
+
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Arquivos de lock de gerenciadores de pacotes
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build do React
+frontend/build/
+frontend/dist/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory usado por ferramentas como istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Rollup.js default build output
+dist/
+
+# Vite build output
+dist/
+
+# ==================== DOCKER ====================
+
+# Docker volumes
+docker-compose.override.yml
+.dockerignore
+
+# ==================== IDEs / EDITORES ====================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# PyCharm / IntelliJ IDEA
+.idea/
+*.swp
+*.swo
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*~
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==================== SISTEMA OPERACIONAL ====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==================== LOGS E DEBUGGING ====================
+
+# Logs gerais
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Logs do FastAPI / Uvicorn
+uvicorn.log
+fastapi.log
+access.log
+error.log
+
+# ==================== DADOS E CACHE ====================
+
+# Cache da aplicação
+.cache/
+*.cache
+
+# Dados temporários
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backups
+*.bak
+*.backup
+*.old
+
+# Arquivos de configuração local
+config.local.py
+config.local.js
+local_settings.py
+
+# Certificados e chaves
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ==================== TESTES ====================
+
+# Arquivos de teste temporários
+test-results/
+test-reports/
+.coverage
+coverage/
+
+# Screenshots de testes
+screenshots/
+test-screenshots/
+
+# ==================== ESPECÍFICO DO PROJETO ====================
+
+# Cache do IPMA Service
+ipma_cache/
+weather_cache/
+
+# Arquivos de dados baixados
+data/
+downloads/
+
+# Configurações de desenvolvimento
+dev_config.py
+dev.env
+
+# Arquivos de exemplo (manter templates)
+*.example.py
+*.example.js
+*.example.json
+
+# Documentação gerada automaticamente
+docs/build/
+docs/_build/
+
+# ==================== OUTROS ====================
+
+# Arquivos compressed
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Patches
+*.orig
+*.rej
+
+# Editor backups
+*~
+
+# ==================== WHITELIST (FORÇAR INCLUSÃO) ====================
+
+# Forçar inclusão de arquivos importantes mesmo que correspondam aos padrões acima
+!.gitkeep
+!README.md
+!requirements.txt
+!package.json
+!Dockerfile
+!docker-compose.yml
+!pytest.ini
+
+# Manter estrutura de pastas vazias
+!**/.gitkeep
